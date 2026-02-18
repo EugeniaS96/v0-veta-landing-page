@@ -1,5 +1,7 @@
 const nextConfig = {
   output: 'export',
+  basePath: '/v0-veta-landing-page',
+  assetPrefix: '/v0-veta-landing-page/',
 
   typescript: {
     ignoreBuildErrors: true,
@@ -17,4 +19,5 @@ const nextConfig = {
 }
 
 export default nextConfig
+nextConfig
 
