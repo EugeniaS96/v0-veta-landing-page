@@ -1,21 +1,24 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: "export",
 
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-
+  // Для статики на GitHub Pages/любой CDN: картинки рендерим как обычные <img>
   images: {
     unoptimized: true,
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'hebbkx1anhila5yf.public.blob.vercel-storage.com',
+        protocol: "https",
+        hostname: "hebbkx1anhila5yf.public.blob.vercel-storage.com",
       },
     ],
   },
-}
 
-export default nextConfig
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+};
+
+export default nextConfig;
+
 
 
