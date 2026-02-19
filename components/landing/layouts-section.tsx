@@ -25,24 +25,21 @@ const categories: Category[] = [
         title: "Лунный календарь на день",
         description:
           "Посмотри, какие энергии несет Луна сегодня, и настройся на их ритм, чтобы провести день в гармонии с собой и миром!",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BB%D1%83%D0%BD%D0%BD%D0%B0%D0%B9%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BD%D1%8C-tt8WMfB0vH6QvoZRvIAJ3ICUqS2NKW.jpg",
+        image: "/assets/layouts/self/lunar_calendar.jpg",
         alt: "Иллюстрация лунного календаря с луной и кристаллом",
       },
       {
         title: "Натальная карта",
         description:
           "Натальная карта — это твоя личная карта звёзд, зафиксированная в момент рождения. Она раскрывает твой характер, таланты, слабые места и ключи к гармонии.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BB%D1%83%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-OwyI73vmic4VgPOdbCgM9ZaxXwHc7y.png",
+        image: "/assets/layouts/self/natal_chart.png",
         alt: "Иллюстрация натальной карты с солнцем и луной",
       },
       {
         title: "Ба Цзы",
         description:
           "Какая стихия заключена в твоем рождении? Древняя китайская система Ба Цзы покажет, какие силы ведут тебя по жизни, где скрыт твой источник мощи и как направить потоки энергии к успеху.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%91%D0%B0%20%D0%A6%D0%B7%D1%8B-TXe4Qf2nJUS3xnKms99rsUElhTYvGI.jpg",
+        image: "/assets/layouts/self/ba_tzu.jpg",
         alt: "Иллюстрация Ба-Цзы с китайскими иероглифами",
       },
     ],
@@ -54,24 +51,21 @@ const categories: Category[] = [
         title: "Нумерология",
         description:
           "Загляни в тайны своих друзей через магию чисел и узнай, какие энергии ведут их по жизни и что говорит о них нумерология!",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BD%D1%83%D0%BC%D0%B5%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-7fsK2ZyWU5Mm2tnOyNvrQDj1qJsfzy.png",
+        image: "/assets/layouts/friends/numerology.png",
         alt: "Иллюстрация девушки в костюме, сидящей по-турецки на фиолетовом фоне",
       },
       {
         title: "Аркан рождения",
         description:
           "Какой Аркан отражает суть твоих близких и ведет их по жизни? Посмотри, что карта говорит об их судьбе, какие энергии формируют их характер и путь.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-oBhzmlms6Z6Nuv6EnB1ChmPHdtDila.jpg",
+        image: "/assets/layouts/friends/arcana_of_birth.jpg",
         alt: "Иллюстрация девушки в красной футболке Friends, тащущей кого-то за руку",
       },
       {
         title: "Карта судьбы",
         description:
           "Загляни в эмоциональный мир своих близких. Что делает их счастливыми, как они проявляют чувства, чего боятся и ждут в ответ? Карта любви приоткроет тайные грани их эмоций и сокровенные желания.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D1%83%D0%B4%D1%8C%D0%B1%D1%8B-tG1tJZYAcJOOQIQ0cpVP5I3gy0MJgB.png",
+        image: "/assets/layouts/friends/destiny_card.png",
         alt: "Иллюстрация девушки в очках с картами на бирюзовом фоне",
       },
     ],
@@ -83,24 +77,21 @@ const categories: Category[] = [
         title: "Карта совместимости",
         description:
           "Раскрой глубину ваших отношений через карты. Узнай, какие энергии соединяют вас, в чем гармония, а где скрыты вызовы, и получи советы для укрепления связи.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BA%D0%B0%D1%80%D1%82%D0%B0%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8-wmqp0NgIfCckyyAiRBqDvxVmFWAJti.jpg",
+        image: "/assets/layouts/compatibility/compatibility_card.jpg",
         alt: "Иллюстрация пары — мужчина в белом пиджаке и девушка в розовом платье",
       },
       {
         title: "Ба Цзы совместимость",
         description:
           "Ваши стихии — союз или испытание? Древняя китайская система Ба Цзы покажет, что вас связывает, какие уроки приготовила судьба и как выстроить гармоничные отношения.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%B1%D1%8B%20%D1%86%D0%B7%D1%8B%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-wuTFaJnUhmBKSShkGiXNcbJL6CY5jI.jpg",
+        image: "/assets/layouts/compatibility/ba_tzu_compatibility.jpg",
         alt: "Иллюстрация парня в розовых очках и ярком пиджаке с китайскими иероглифами",
       },
       {
         title: "Нумерология совместимости",
         description:
           "Что числа говорят о вашей совместимости? Узнай, какие вибрации притягивают вас друг к другу, как найти баланс и какие уроки приготовила судьба вашей паре.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%BD%D1%83%D0%BC%D0%B5%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8-ZVUkpdYbJNxJyX1cypKt8ajA2dbawz.jpg",
+        image: "/assets/layouts/compatibility/numerology_compatibility.jpg",
         alt: "Иллюстрация парня в широких розовых штанах с надписями Destiny, Fortune, Luck",
       },
     ],
