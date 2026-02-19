@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  trailingSlash: true,
 
-  // Для статики на GitHub Pages/любой CDN: картинки рендерим как обычные <img>
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -19,6 +19,7 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
 
 
 
