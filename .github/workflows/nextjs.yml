@@ -25,9 +25,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build (static export to out)
         run: npm run build
@@ -36,8 +37,6 @@ jobs:
         run: |
           echo "=== out root ==="
           ls -la out
-          echo "=== out/_next ==="
-          ls -la out/_next || true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -54,5 +53,6 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
 
 
