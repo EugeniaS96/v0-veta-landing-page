@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
+const repo = "v0-veta-landing-page";
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
   trailingSlash: true,
+
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
 
   images: {
     unoptimized: true,
@@ -19,6 +25,7 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
 
 
 
