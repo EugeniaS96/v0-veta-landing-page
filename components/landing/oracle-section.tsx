@@ -15,7 +15,7 @@ export function OracleSection() {
       <div className="mx-auto max-w-6xl px-4 lg:px-8">
         <AnimatedSection>
           <h2 className="text-balance text-center text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-            {"Оракул \u2014 ваш личный ИИ-советчик"}
+            {"Оракул — ваш личный ИИ-советчик"}
           </h2>
         </AnimatedSection>
 
@@ -25,7 +25,7 @@ export function OracleSection() {
             <div className="mx-auto w-[280px] md:w-[320px]">
               <div className="overflow-hidden rounded-[2.5rem] border-[8px] border-foreground/10 bg-card shadow-2xl shadow-foreground/10">
                 <video
-                  src="/oracle.mp4"
+                  src="/assets/oracle/oracle.mp4"
                   autoPlay
                   loop
                   muted
@@ -43,7 +43,7 @@ export function OracleSection() {
           <div className="flex flex-1 flex-col gap-8 lg:pt-4">
             <AnimatedSection delay={0.2}>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                {"Задай любой вопрос и получи мгновенный ответ. Оракул Veta\u00A0\u2014 это умный чат-бот, который поможет разобраться в сложной ситуации, даст совет и раскроет неочевидные знаки судьбы."}
+                {"Задай любой вопрос и получи мгновенный ответ. Оракул Veta — это умный чат-бот, который поможет разобраться в сложной ситуации, даст совет и раскроет неочевидные знаки судьбы."}
               </p>
             </AnimatedSection>
 
@@ -54,7 +54,9 @@ export function OracleSection() {
                     <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-secondary/10">
                       <f.icon className="h-4 w-4 text-secondary" />
                     </div>
-                    <span className="text-sm font-medium text-foreground">{f.text}</span>
+                    <span className="text-sm font-medium text-foreground">
+                      {f.text}
+                    </span>
                   </div>
                 ))}
               </div>
